@@ -1,0 +1,86 @@
+{% extends 'index.html' %}
+
+{% block header %}
+    <style>
+    .works{
+        background: #4CAF50;
+    }
+    </style>
+{% endblock %}
+{% block title %}作品小样{% endblock %}
+
+{% block content %}
+    <div class="content-box">
+        <div class="container content">
+            <h3>作品小样</h3>
+            <div class="row">
+                <div class="col-lg-3 col-md-3">
+                    <div class="row-box fl">
+                        <a href="{% url 'encryption' %}" target="_blank">
+                            <img src="./static/images/common/encryption.jpg" alt="数字加密">
+                        </a>
+                        <h3>数字加密</h3>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3">
+                    <div class="row-box">
+                        <a href="{% url 'lantern' %}" target="_blank">
+                            <img src="./static/images/common/3D.png" alt="3D走马灯">
+                        </a>
+                        <h3>3D走马灯</h3>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3">
+                    <div class="row-box">
+                        <a href="{% url 'weather' %}" target="_blank">
+                            <img src="./static/images/common/weather.jpg" alt="天气预报">
+                        </a>
+                        <h3>天气预报</h3>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3">
+                    <div class="row-box fr">
+                        <a href="{% url 'magnifer' %}" target="_blank">
+                            <img src="./static/images/girl/maganifirl.jpg" alt="放大镜">
+                        </a>
+                        <h3>放大镜</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-3">
+                    <div class="row-box fl">
+                        <a href="{% url 'columnar' %}" target="_blank">
+                            <img src="./static/images/common/canvas.png" alt="柱形图">
+                        </a>
+                        <h3>柱形图</h3>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3">
+                    <div class="row-box">
+                        <a href="{% url 'curtain' %}" target="_blank">
+                            <img src="./static/images/common/curtan.jpg" alt="弹幕效果">
+                        </a>
+                        <h3>弹幕效果</h3>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3">
+                    <div class="row-box">
+                        <a href="{% url 'war' %}" target="_blank">
+                            <img src="./static/images/common/candle.jpg" alt="视频播放">
+                        </a>
+                        <h3>视频播放</h3>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3">
+                    <div class="row-box fr">
+                        <a href="{% url 'luck' %}" target="_blank">
+                            <img src="./static/images/common/lcuk.jpg" alt="幸运抽奖">
+                        </a>
+                        <h3>幸运抽奖</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

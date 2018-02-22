@@ -1,0 +1,24 @@
+{% extends 'index.html' %}
+
+{% block header %}
+    <link rel="stylesheet" href="./static/css/worksample/magnifier.css">
+    <script type="text/javascript" src="./static/js/worksample/magnifier.js"></script>
+{% endblock %}
+{% block title %}放大镜效果{% endblock %}
+
+{% block content %}
+    <div class="base">
+        <div class="magnifier">
+            <ul id="sul" class="magnifier-box">
+                <li><img src="./static/images/girl/1.jpg"></li>
+                <li><img src="./static/images/girl/2.jpg"></li>
+                <li><img src="./static/images/girl/3.jpg"></li>
+                <li><img src="./static/images/girl/4.jpg"></li>
+                <li><img src="./static/images/girl/5.jpg"></li>
+            </ul>
+        </div>
+        <div id="div1" class="magnifier-init">
+            <img id="img1" style="width:800px; height:800px;" src="./static/images/girl/1-1.jpg">
+        </div>
+    </div>
+{% endblock %}

@@ -1,0 +1,38 @@
+{% extends 'index.html' %}
+
+{% block header %}
+    <link rel="stylesheet" href="./static/css/worksample/lantern.css">
+{% endblock %}
+{% block title %}3D跑马灯效果{% endblock %}
+
+{% block content %}
+    <div class="base">
+        <div class="package">
+             <!-- 实现3D效果的容器 -->
+            <div class="piece-box">
+                <!-- 让正方体动起来的容器 -->
+                <div class="piece-box2" id="pieceRomve">
+                    <div class="piece piece-1"></div>
+                    <div class="piece piece-2"></div>
+                    <div class="piece piece-3"></div>
+                    <div class="piece piece-4"></div>
+                    <div class="piece piece-5"></div>
+                    <div class="piece piece-6"></div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script>
+    $(".piece-box2").on('mouseover',function () {
+        $(this).css({
+            "animation-play-state":"paused"
+        })
+    })
+    $(".piece-box2").on('mouseout',function () {
+         $(this).css({
+            "animation-play-state":"running"
+        })
+    })
+    </script>
+{% endblock %}

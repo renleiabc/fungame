@@ -1,0 +1,21 @@
+.game{
+    background: #4CAF50;
+}
+.base{
+    text-align: center;
+}
+.draw-box{
+    width: 90%;
+    margin: 0 auto;
+    background:#f0f0f0;
+    overflow: hidden;
+    height: 100%;
+}
+.draw-target{
+    width: 23%;
+    height: 45%;
+    background-color: #ccf;
+    position: relative;
+    float: left;
+    margin: 1% 1%;
+}

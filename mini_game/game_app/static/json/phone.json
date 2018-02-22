@@ -1,0 +1,67 @@
+[
+  {
+    "num": 120,
+    "name": "苹果",
+    "color": "#9A32CD"
+  },
+  {
+    "num": 130,
+    "name": "小米",
+    "color": "#98F5FF"
+  },
+  {
+    "num": 150,
+    "name": "华为",
+    "color": "#C71585"
+  },
+  {
+    "num": 90,
+    "name": "魅族",
+    "color": "#BCEE68"
+  },
+  {
+    "num": 150,
+    "name": "VIVO",
+    "color": "#B4CDCD"
+  },
+  {
+    "num": 120,
+    "name": "三星",
+    "color": "#B22222"
+  },
+  {
+    "num": 150,
+    "name": "黑莓",
+    "color": "#953455"
+  },
+  {
+    "num": 150,
+    "name": "诺基亚",
+    "color": "#33FB45"
+  },
+  {
+    "num": 150,
+    "name": "Motorola",
+    "color": "#FFFB91"
+  },
+  {
+    "num": 150,
+    "name": "HTC宏达",
+    "color": "#DDFBEE"
+  },
+  {
+    "num": 150,
+    "name": "联想",
+    "color": "#333"
+  },
+  {
+    "num": 150,
+    "name": "索尼",
+    "color": "#ccc"
+  },
+   {
+    "num": 150,
+    "name": "多普达",
+    "color": "#FF0000"
+  }
+]

@@ -1,0 +1,86 @@
+{% extends 'index.html' %}
+
+{% block header %}
+    <style>
+    .game{
+       background: #4CAF50;
+    }
+    </style>
+{% endblock %}
+{% block title %}游戏天地{% endblock %}
+
+{% block content %}
+<div class="content-box">
+    <div class="container content">
+        <h3>游戏世界</h3>
+        <div class="row">
+            <div class="col-lg-3 col-md-3">
+                <div class="row-box fl">
+                     <a href="{% url 'aircraft' %}" target="_blank">
+                        <img src="./static/images/common/plane.jpg" alt="飞机大战">
+                    </a>
+                    <h3>飞机大战</h3>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3">
+                <div class="row-box">
+                    <a href="{% url 'intruder' %}" target="_blank">
+                        <img src="./static/images/common/intruder.jpg" alt="太空入侵者">
+                    </a>
+                    <h3>太空入侵者</h3>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3">
+                <div class="row-box">
+                    <a href="{% url 'tetris' %}" target="_blank">
+                        <img src="./static/images/common/tetris.jpg" alt="俄罗斯方块">
+                    </a>
+                    <h3>俄罗斯方块</h3>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3">
+                <div class="row-box fr">
+                    <a href="{% url 'snake' %}" target="_blank">
+                        <img src="./static/images/common/snake.jpg" alt="贪吃蛇">
+                    </a>
+                    <h3>贪吃蛇</h3>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-md-3">
+                <div class="row-box fl">
+                    <a href="{% url 'sin' %}" target="_blank">
+                        <img src="./static/images/common/sin.jpg" alt="正弦曲线">
+                    </a>
+                    <h3>正弦曲线</h3>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3">
+                <div class="row-box">
+                    <a href="{% url 'spirit' %}" target="_blank">
+                        <img src="./static/images/common/spriti.jpg" alt="精灵图">
+                    </a>
+                    <h3>精灵图</h3>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3">
+                <div class="row-box">
+                    <a href="{% url 'puzzle' %}" target="_blank">
+                        <img src="./static/images/common/pic.jpg" alt="美女拼图">
+                    </a>
+                    <h3>美女拼图</h3>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3">
+                <div class="row-box fr">
+                    <a href="{% url 'mousemove' %}" target="_blank">
+                        <img src="./static/images/common/roate.jpg" alt="旋转木马">
+                    </a>
+                    <h3>旋转木马</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,23 @@
+{% extends 'index.html' %}
+
+{% block header %}
+    <script type="text/javascript" src="./static/js/worksample/columnar.js"></script>
+    <style>
+    .canvas-box{
+        display: inline-block;
+        margin-top:50px;
+    }
+    .works{
+        background: #4CAF50;
+    }
+    </style>
+{% endblock %}
+{% block title %}柱形图{% endblock %}
+
+{% block content %}
+    <div class="base" style="background:#fff;text-align: center;">
+        <div class="canvas-box">
+            <canvas width="750" height="450" id="canvas"></canvas>
+        </div>
+    </div>
+{% endblock %}

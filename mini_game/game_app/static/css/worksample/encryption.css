@@ -1,0 +1,141 @@
+.works{
+    background: #4CAF50;
+}
+.encryption{
+    background: #E0EEE0;
+    height: 100%;
+    width: 100%;
+}
+
+.main-globle {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.footer {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    vertical-align:middle;
+    text-align: center;
+
+}
+.header-lable {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.header-radio {
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.section {
+    width: 50%;
+    float: left;
+    height: 80%;
+    padding: 20px 2%;
+    background: #F4F4F4;
+}
+
+.section-textarea {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    outline: none;
+    resize: none;
+    border:1px solid #D1D1D1;
+    font-size: 16px;
+}
+
+.footer-btn {
+    outline: none;
+    background: #EE2C2C;
+    border: none;
+    color: #fff;
+    width: 65px;
+    height: 28px;
+    line-height: 28px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.footer-btn:hover {
+    width: 70px;
+    height: 30px;
+    background: #FF0000;
+    font-size: 16px;
+    animation: footerbtn 0.2s 1;
+    -moz-animation: footerbtn 0.2s 1; /* Firefox */
+    -webkit-animation: footerbtn 0.2s 1; /* Safari and Chrome */
+    -o-animation: footerbtn 0.2s 1; /* Opera */
+    opacity: 0.5;
+    filter:alpha(opacity=50);  /*filter 过滤器   兼容IE678*/
+}
+
+@keyframes footerbtn {
+    from {
+        width: 65px;
+        height: 28px;
+        background: #EE2C2C;
+    }
+    to {
+        width: 70px;
+        height: 30px;
+        background: #FF0000;
+        font-size: 16px;
+        opacity: 0.5;
+    }
+}
+@-moz-keyframes footerbtn {
+    from {
+        width: 65px;
+        height: 28px;
+        background: #EE2C2C;
+    }
+    to {
+        width: 70px;
+        height: 30px;
+        background: #FF0000;
+        font-size: 16px;
+        opacity: 0.5;
+    }
+}
+@-webkit-keyframes footerbtn {
+    from {
+        width: 65px;
+        height: 28px;
+        background: #EE2C2C;
+    }
+    to {
+        width: 70px;
+        height: 30px;
+        background: #FF0000;
+        font-size: 16px;
+        opacity: 0.5;
+    }
+}
+@-o-keyframes footerbtn {
+    from {
+        width: 65px;
+        height: 28px;
+        background: #EE2C2C;
+    }
+    to {
+        width: 70px;
+        height: 30px;
+        background: #FF0000;
+        font-size: 16px;
+        opacity: 0.5;
+    }
+}

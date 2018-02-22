@@ -1,0 +1,27 @@
+{% extends 'index.html' %}
+
+{% block header %}
+    <link rel="stylesheet" href="./static/css/worksample/luck.css">
+    <script src="/static/js/public/roate.js"></script>
+    <script src="./static/js/worksample/luck.js"></script>
+{% endblock %}
+{% block title %}幸运抽奖{% endblock %}
+
+{% block content %}
+<div class="base">
+        <div class="g-content">
+            <div class="g-lottery-case">
+                <div class="g-left">
+                    <h2>您已拥有<span class="playnum"></span>次抽奖机会，点击立刻抽奖！</h2>
+                    <div class="g-lottery-box">
+                        <div class="g-lottery-img">
+                        </div>
+                        <a class="playbtn" href="javascript:;" rel="external nofollow" rel="external nofollow"
+                           title="开始抽奖"></a>
+                    </div>
+                    <span class="luck"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

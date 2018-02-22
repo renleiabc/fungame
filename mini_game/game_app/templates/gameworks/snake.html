@@ -1,0 +1,58 @@
+{% extends 'index.html' %}
+
+{% block header %}
+    <link rel="stylesheet" href="./static/css/gameworks/snake.css">
+    <script src="./static/js/gameworks/sanke.js"></script>
+{% endblock %}
+{% block title %}贪吃蛇{% endblock %}
+
+{% block content %}
+    <div class="content-box">
+        <audio id="bgAudio" src="./static/MP3/Cut_01.mp3" loop></audio>
+        <audio id="eat" src="./static/MP3/si.mp3"></audio>
+        <audio id="die" src="./static/MP3/boing3.wav"></audio>
+        <audio></audio>
+        <div id="div0" class="snake">
+            <ul>
+                <li>
+                    <div id="div1"></div>
+                </li>
+                <li>
+                    <div id="div2" class="snake-data">
+                        <p>
+                            历史最长记录：<label><span id="maxLength" style="color:red;"></span></label>
+                        </p>
+                        <br/>
+                        <p>
+                            当前长度：<label><span id="SnakeLength" style="color:red;">5</span></label>
+                        </p>
+                        <select>
+                            <option>较难</option>
+                            <option selected="selected">中级</option>
+                            <option>简单</option>
+                        </select>
+                        <br/>
+                        <button class="snake-btn">开始</button>
+                        <br/>
+                        <button class="snake-btn">暂停</button>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <!-- 模态框（Modal） -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+             aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    </div>
+                    <div class="modal-body">很遗憾，<span id="snakeText">游戏结束！</span></div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default btn-close" data-dismiss="modal">关闭</button>
+                    </div>
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal -->
+        </div>
+    </div>
+{% endblock %}

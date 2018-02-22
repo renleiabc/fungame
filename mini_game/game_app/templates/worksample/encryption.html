@@ -1,0 +1,33 @@
+{% extends 'index.html' %}
+
+{% block header %}
+    <link rel="stylesheet" href="./static/css/worksample/encryption.css">
+    <script type="text/javascript" src="./static/js/worksample/encryption.js"></script>
+{% endblock %}
+{% block title %}数字加密{% endblock %}
+
+{% block content %}
+    <div class="encryption" id="globle">
+        <!--内容-->
+        <main class="main-globle">
+            <header class="header">
+                <label for="encryption" class="header-lable">加密</label>
+                <input type="radio" name="secret" checked class="header-radio" id="encryption" checked>
+                <label for="decrypt" class="header-lable" style="margin-left: 10px;">解密</label>
+                <input type="radio" name="secret" class="header-radio" id="decrypt">
+            </header>
+            <!--输入区-->
+            <section class="section section-left">
+                <textarea class="section-textarea" placeholder="输入文本……" id="textInput"></textarea>
+            </section>
+            <!--输出区-->
+            <section class="section section-right">
+                <textarea class="section-textarea" placeholder="输出文本……" id="textOutput"></textarea>
+            </section>
+            <!--底部按钮-->
+            <footer class="footer">
+                <input type="button" value="转换" id="btn" class="footer-btn">
+            </footer>
+        </main>
+    </div>
+{% endblock %}

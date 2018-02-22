@@ -1,0 +1,490 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+body {
+    padding-top: 50px;
+    background: #f7f7f9;
+}
+
+.global {
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+.login {
+    background: url("../../images/login/one.jpeg");
+    /* animation-name: login;
+     animation-duration: 12s;
+     animation-delay: 2s;
+     animation-iteration-count: infinite;
+     animation-play-state: running;*/
+    animation: login 40s linear 3s infinite alternate;
+}
+
+@keyframes login {
+    0% {
+        background: url("../../images/login/one.jpeg");
+    }
+    20% {
+        background: url("../../images/login/two.jpg");
+    }
+    40% {
+        background: url("../../images/login/three.jpg");
+    }
+    60% {
+        background: url("../../images/login/four.jpg");
+    }
+    80% {
+        background: url("../../images/login/five.jpg");
+    }
+    100% {
+        background: url("../../images/login/six.jpg");
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .form {
+        width: 40%;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 1200px) {
+    .form {
+        width: 55%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .form {
+        width: 80%;
+    }
+}
+
+.form {
+    background: rgba(255, 255, 255, 0.2);
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 60%;
+    text-align: center;
+}
+
+.form .form-group {
+    width:100%;
+   text-align: center;
+    margin-bottom:3%;
+    position: relative;
+}
+.form-group>input,.regist-box{
+    width: 45%;
+    display: inline-block;
+}
+input[type="text"], input[type="password"] {
+    padding-left: 5%;
+}
+.prompt{
+    height: 34px;
+    line-height: 34px;
+    position: absolute;
+    left:74%;
+    top:0;
+    color:red;
+    font-weight: bolder;
+}
+.btn {
+    width: 100%;
+}
+
+.form-save {
+    height: 34px;
+    vertical-align: middle;
+    line-height: 34px;
+    text-align: left;
+}
+
+.form-title {
+    font-size: 30px;
+    color: transparent;
+    -webkit-text-stroke: 1px black;
+    letter-spacing: 0.04em;
+    letter-spacing: 40px;
+    text-indent: 40px;
+}
+
+.form-no {
+    float: right;
+    color: blue;
+    cursor: pointer;
+}
+
+.form-no:hover {
+    text-decoration: none;
+    color: red;
+}
+
+.form-modify {
+    color: #fff;
+    text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9,
+    0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa,
+    0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1),
+    0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2),
+    0 5px 10px rgba(0, 0, 0, 0.25);
+}
+
+.regist {
+    background: url("../../images/regist/one.jpg");
+    animation: regist 40s linear 3s infinite alternate;
+}
+
+@keyframes regist {
+    0% {
+        background: url("../../images/regist/one.jpg");
+    }
+    20% {
+        background: url("../../images/regist/two.jpg");
+    }
+    40% {
+        background: url("../../images/regist/three.jpg");
+    }
+    60% {
+        background: url("../../images/regist/ten.jpg");
+    }
+    80% {
+        background: url("../../images/regist/five.jpg");
+    }
+    100% {
+        background: url("../../images/regist/six.jpg");
+    }
+}
+
+.change {
+    width: 100%;
+    height: 100%;
+    background: url("../../images/chanage/one.jpg");
+    animation: change 40s linear 3s infinite alternate;
+}
+
+@keyframes change {
+    0% {
+        background: url("../../images/chanage/one.jpg");
+    }
+    20% {
+        background: url("../../images/chanage/two.jpg");
+    }
+    40% {
+        background: url("../../images/chanage/three.jpg");
+    }
+    60% {
+        background: url("../../images/chanage/four.jpg");
+    }
+    80% {
+        background: url("../../images/chanage/five.jpg");
+    }
+    100% {
+        background: url("../../images/chanage/six.jpg");
+    }
+}
+
+/*头部导航栏的样式*/
+.navbar-default {
+    background: rgb(62, 67, 86);
+    border: none;
+}
+
+.navbar-brand {
+    padding: 0;
+    height: 50px;
+    line-height: 50px;
+    vertical-align: middle;
+}
+
+.navbar-brand > img {
+    width: 100px;
+    height: 30px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.navbar-text {
+    margin: 0;
+}
+
+.navbar-text a {
+    color: #fff;
+    height: 50px;
+    line-height: 50px;
+    display: inline-block;
+    font-size: 16px;
+    padding: 0 10px;
+    text-decoration: none;
+}
+
+.navbar-text a:hover {
+    text-decoration: none;
+    background: #4CAF50;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+    font-size: 16px;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    background: #4CAF50;
+    color: #fff;
+}
+
+/*内容样式*/
+
+.main {
+    width: 100%;
+    height: 90%;
+}
+
+.main-box {
+    width: 100%;
+    height: 90%;
+    display: block;
+}
+
+.carousel, .carousel-inner, .item {
+    height: 100%;
+    width: 100%;
+}
+
+.carousel-inner > .item > img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+/*游戏世界*/
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.row-box {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.row-box a {
+    display: block;
+    height: 170px;
+    width: 100%;
+    line-height: 170px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.row-box a img {
+    width: 180px;
+    height: 140px;
+    border-radius: 10px;
+}
+.row-box a img:hover{
+    border:2px solid #EE3B3B;
+}
+.row-box h3 {
+    width: 100%;
+    text-align: center;
+}
+
+.content-box {
+    width: 100%;
+    height: 100%;
+}
+
+/*底部样式*/
+.footer-box {
+    background: rgb(62, 67, 86);
+    height: 50px;
+}
+
+.footer-box p {
+    margin: 0;
+    height: 50px;
+    color: #fff;
+    line-height: 50px;
+    display: block;
+}
+
+/*联系方式*/
+.contact {
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    font-size: 16px;
+}
+
+.contact h3 {
+    margin-top: 100px;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.contact p {
+    margin-left: 50px;
+}
+
+.content {
+    height: 100%;
+    position: relative;
+}
+
+.learning {
+    width: 100%;
+    height: 75%;
+}
+
+.learning a {
+    display: block;
+    max-width: 60%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    height: 30px;
+    line-height: 30px;
+    color: blue;
+    font-size: 16px;
+}
+
+.learning a:hover {
+    color: rgb(62, 67, 86);
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.title-page {
+    position: fixed;
+    height: 30px;
+    line-height: 30px;
+    background: rgb(62, 67, 86);
+    color: #fff;
+    display: none
+}
+
+/*分页插件*/
+
+.tcdPageCode {
+    text-align: left;
+    color: #ccc;
+}
+
+.tcdPageCode a {
+    display: inline-block;
+    color: #428bca;
+    display: inline-block;
+    height: 25px;
+    line-height: 25px;
+    padding: 0 20px;
+    border: 1px solid #ddd;
+    margin: 0 2px;
+    vertical-align: middle;
+}
+
+.tcdPageCode a:hover {
+    text-decoration: none;
+    border: 1px solid #428bca;
+}
+
+.tcdPageCode span.current {
+    display: inline-block;
+    height: 25px;
+    line-height: 25px;
+    padding: 0 20px;
+    margin: 0 2px;
+    color: #fff;
+    background-color: #428bca;
+    border: 1px solid #428bca;
+    vertical-align: middle;
+}
+
+.tcdPageCode span.disabled {
+    display: inline-block;
+    height: 25px;
+    line-height: 25px;
+    padding: 0 10px;
+    margin: 0 2px;
+    color: #bfbfbf;
+    border: 1px solid #bfbfbf;
+    vertical-align: middle;
+}
+
+.content-page {
+    position: absolute;
+    bottom: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/*回到顶部*/
+.back-top {
+    width: 45px;
+    background: #f4f4f4;
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    display: none;
+}
+
+.back-mark {
+    width: 100%;
+    height: 35px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 35px;
+    border-bottom: 1px solid #ccc;
+}
+
+.back-word {
+    font-size: 15px;
+    text-align: center;
+    width: 100%;
+    word-wrap: break-word;
+    word-break: normal;
+    margin: 0;
+}
+
+.back-top:hover {
+    color: #fff;
+    background: #333;
+}
+
+.base {
+    background-color: rgba(0, 0, 0, 0.8);
+    font-family: microsoft yahei;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}

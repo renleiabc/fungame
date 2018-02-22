@@ -1,0 +1,65 @@
+.works {
+    background: #4CAF50;
+}
+
+.g-content {
+    width: 100%;
+    background: #fbe3cc;
+    height: 100%;
+    font-family: "微软雅黑", "microsoft yahei";
+}
+
+.g-content .g-lottery-case {
+    width: 500px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.g-content .g-lottery-case .g-left h2 {
+    font-size: 20px;
+    line-height: 32px;
+    height: 32px;
+    font-weight: normal;
+    display: inline-block;
+}
+
+.g-content .g-lottery-case .g-left {
+    width: 450px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.g-lottery-box {
+    width: 400px;
+    height: 400px;
+    margin:0 auto;
+    position: relative;
+    background: url('/static/images/common/plate.gif') no-repeat;
+}
+
+.g-lottery-box .g-lottery-img {
+    width: 340px;
+    height: 340px;
+    position: relative;
+    background: url('/static/images/common/lottery.png') no-repeat;
+    left: 30px;
+    top: 30px;
+}
+
+.g-lottery-box .playbtn {
+    width: 186px;
+    height: 186px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -94px;
+    margin-top: -94px;
+    background: url('/static/images/common/playbtn.png') no-repeat;
+}
+.luck{
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    color:red;
+}

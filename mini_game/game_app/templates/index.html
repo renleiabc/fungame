@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}首页{% endblock %}</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="./static/images/game.ico">
+    <link rel="Bookmark" href="./static/images/game.ico">
+    <link rel="stylesheet" href="./static/css/bootstrap.css">
+    <link rel="stylesheet" href="./static/css/bootstrap-theme.css">
+    <link rel="stylesheet" href="./static/css/public/public.css">
+    <script type="text/javascript" src="./static/js/public/jquery.js"></script>
+    <script type="text/javascript" src="./static/js/public/bootstrap.js"></script>
+    <script type="text/javascript" src="./static/js/public/page.js"></script>
+    <script type="text/javascript" src="./static/js/public/jquery.cookie.js"></script>
+    {% block header %}
+        <style>
+            .index {
+                background: #4CAF50;
+            }
+        </style>
+    {% endblock %}
+</head>
+<body>
+
+<div class="global">
+    {% include 'header.html' %}
+    {% block content %}
+        {% include 'main.html' %}
+    {% endblock %}
+    {% include 'footer.html' %}
+</div>
+</body>
+</html>

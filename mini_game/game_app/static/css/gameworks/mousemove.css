@@ -1,0 +1,79 @@
+.game {
+    background-color: #4CAF50;
+}
+
+img {
+    width: 200px;
+    height: 300px;
+}
+
+@keyframes fn {
+    0% {
+        transform: rotateX(-15deg) rotateY(0deg);
+    }
+    100% {
+        transform: rotateX(-15deg) rotateY(360deg);
+    }
+
+}
+
+@-moz-keyframes fn {
+    0% {
+        transform: rotateX(-15deg) rotateY(0deg);
+    }
+    100% {
+        transform: rotateX(-15deg) rotateY(360deg);
+    }
+}
+
+@-ms-keyframes fn {
+    0% {
+        transform: rotateX(-15deg) rotateY(0deg);
+    }
+    100% {
+        transform: rotateX(-15deg) rotateY(360deg);
+    }
+}
+
+@-webkit-keyframes fn {
+    0% {
+        transform: rotateX(-15deg) rotateY(0deg);
+    }
+    100% {
+        transform: rotateX(-15deg) rotateY(360deg);
+    }
+}
+
+.box {
+    width: 200px;
+    height: 300px;
+    position: relative;
+    margin: auto;
+    margin-top: 150px;
+    transform-style: preserve-3d;
+    transform: rotateX(-10deg);
+    -webkit-transform-style: preserve-3d;
+    -webkit-transform: rotateX(-10deg);
+    -ms-transform-style: preserve-3d;
+    -ms-transform: rotateX(-10deg);
+    -moz-transform-style: preserve-3d;
+    -moz-transform: rotateX(-10deg);
+    animation: fn 10s infinite linear;
+    -webkit-animation: fn 10s infinite linear;
+    -ms-animation: fn 10s infinite linear;
+    -moz-animation: fn 10s infinite linear;
+    position: relative;
+}
+
+.box:hover {
+    animation-play-state: paused;
+}
+
+.box > div {
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+}

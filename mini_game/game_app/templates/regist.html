@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册</title>
+    <link rel="shortcut icon" href="./static/images/game.ico">
+    <link rel="Bookmark" href="./static/images/game.ico">
+    <link rel="stylesheet" href="./static/css/bootstrap.css">
+    <link rel="stylesheet" href="./static/css/bootstrap-theme.css">
+    <link rel="stylesheet" href="../static/css/public/public.css">
+    <script type="text/javascript" src="./static/js/public/jquery.js"></script>
+    <script type="text/javascript" src="./static/js/public/bootstrap.js"></script>
+    <script type="text/javascript" src="./static/js/public/login.js"></script>
+</head>
+<body class="regist">
+<form action="{% url 'regist' %}"
+      method="post" accept-charset="utf-8"
+      enctype="multipart/form-data" class="form">
+    {% csrf_token %}
+    <h2 class="form-title">注册</h2>
+    <div class="form-group">
+        <input type="text" class="form-control" name="username"
+               id="username" placeholder="请输入账户名" required
+               autofocus/>
+        {% if info == "1" %}
+            <span id="info" class="prompt">用户名已存在！</span>
+        {% endif %}
+    </div>
+    <div class="form-group">
+        <input type="password" class="form-control"
+               name="password" id="password" placeholder="请输入密码" required
+               autofocus/>
+    </div>
+    <div class="form-group">
+        <input type="password" class="form-control"
+               name="againpassword" id="againpassword" placeholder="请输入密码" required
+               autofocus/>
+        {% if info == "2" %}
+            <span id="info" class="prompt">两次密码不一致！</span>
+        {% endif %}
+    </div>
+    <div class="form-group">
+        <input type="submit" class="btn btn-success" value="立即注册">
+    </div>
+</form>
+</body>
+</html>

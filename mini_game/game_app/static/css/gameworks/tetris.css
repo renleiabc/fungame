@@ -1,0 +1,73 @@
+.game {
+    background: #4CAF50;
+}
+
+.tetirs-table tr td {
+    width: 23px;
+    height: 23px;
+}
+
+.tetirs-table {
+    border-collapse: collapse;
+    cellspacing: 0;
+    cellpadding: 0;
+}
+
+.tetirs {
+    background: white;
+    margin: auto;
+    padding: 20px;
+    width: 400px;
+    overflow: hidden;
+}
+
+.tetirs-start, .tetirs-replace {
+    outline: none;
+    border: none;
+    width: 60px;
+    height: 30px;
+    line-height: 30px;
+    background: #FF4500;
+    border-radius: 5px;
+    color: #fff;
+    margin: 20px 0;
+}
+
+.tetirs-replace:hover, .tetirs-start:hover {
+    background: #EEC900;
+}
+
+.tetirs-pre {
+    display: inline-block;
+    text-align: center;
+}
+
+.tetirs-replace {
+    width: 100px;
+    margin-top: 0;
+}
+
+.content-box h3 {
+    text-align: center;
+}
+
+.tetirs-explain {
+    width: 100px;
+    word-break: break-all;
+    display: block;
+}
+
+.modal-footer {
+    text-align: center;
+}
+
+.modal-dialog {
+    position: relative;
+    margin-top: 200px;
+    width: 400px;
+    text-align: center;
+}
+
+.btn-close {
+    width: 60px;
+}

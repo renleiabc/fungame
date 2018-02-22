@@ -1,0 +1,30 @@
+{% extends 'index.html' %}
+
+{% block header %}
+    <script type="text/javascript" src="./static/js/public/learning.js"></script>
+    <style>
+    .learn{
+        background: #4CAF50;
+    }
+    </style>
+{% endblock %}
+{% block title %}学习天地{% endblock %}
+
+{% block content %}
+    <div class="content-box">
+        <div class="container content">
+            <h3>学习天地</h3>
+            <article class="learning">
+
+            </article>
+            <!-- 分页器 -->
+            <div class="content-page">
+                <div class="tcdPageCode">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--- 鼠标移上去显示出标题导航的所有内容 -->
+    <div class="title-page">
+    </div>
+{% endblock %}

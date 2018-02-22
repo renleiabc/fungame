@@ -1,0 +1,90 @@
+[
+  {
+    "link":"https://www.imooc.com/",
+    "str":"慕课网(IMOOC)是IT技能学习平台"
+  },
+  {
+    "link":"http://www.runoob.com/",
+    "str":"菜鸟教程提供了最全的编程技术基础教程,介绍了HTML、CSS、Javascript、Python,Java,Ruby,C,PHP ,MySQL等各种编程语言的基础知识"
+  },
+  {
+    "link":"https://www.jianshu.com/",
+    "str":"简书是一个优质的创作社区,在这里,你可以任性地创作,一篇短文、一张照片、一首诗、一幅画……我们相信,每个人都是生活中的艺术家,有着无穷的创造力"
+  },
+  {
+    "link":"http://blog.csdn.net/",
+    "str":"CSDN-专业IT技术社区"
+  },
+  {
+    "link":"https://juejin.im/",
+    "str":"掘金- juejin.im - 一个帮助开发者成长的社区"
+  },
+  {
+    "link":"http://www.jb51.net/",
+    "str":"脚本之家是国内专业的网站建设资源、脚本编程学习类网站,提供asp、php、asp.net、javascript、jquery、vbscript、dos批处理、网页制作、网络编程、网站建设等编程资料"
+  },
+  {
+    "link":"https://www.freecodecamp.cn/",
+    "str":"开启你的软件工程师生涯"
+  },
+  {
+    "link":"http://www.ruanyifeng.com/home.html",
+    "str":"其知识面宽广，对各种事物都有深刻探寻的好奇心和善于考据的思维方式"
+  },
+  {
+    "link":"https://cn.vuejs.org/",
+    "str":"Vue是一套用于构建用户界面的渐进式框架"
+  },
+  {
+    "link":"http://element.eleme.io/#/zh-CN",
+    "str":"Element，一套为开发者、设计师和产品经理准备的基于 Vue 2.0 的桌面端组件库"
+  },
+  {
+    "link":"https://code.ziqiangxuetang.com/django/django-tutorial.html",
+    "str":"Django 基础教程,Django 中级教程,全面系统的Django教程,有齐全的代码和示例下载,让您更快更好地学习 Django 网站开发"
+  },
+  {
+    "link":"http://cnodejs.org/",
+    "str":"CNode：Node.js专业中文社区"
+  },
+  {
+    "link":"http://www.ruanyifeng.com/home.html",
+    "str":"其知识面宽广，对各种事物都有深刻探寻的好奇心和善于考据的思维方式"
+  },
+  {
+    "link":"https://www.w3.org/Style/CSS/",
+    "str":"Cascading Style Sheets，css的家园"
+  },
+  {
+    "link":"http://www.htmleaf.com/",
+    "str":"jQuery之家-自由分享jQuery、html5、css3的插件库"
+  },
+  {
+    "link":"http://www.swiper.com.cn/",
+    "str":"Swiper(Swiper master)是目前应用较广泛的移动端网页触摸内容滑动js插件"
+  },
+  {
+    "link":"https://daneden.github.io/animate.css/",
+    "str":"Animate.css 一款强大的预设css3动画库"
+  },
+  {
+    "link":"http://w3c.github.io/html/",
+    "str":"H5标准文档"
+  },
+  {
+    "link":"http://www.w3school.com.cn/",
+    "str":"全球最大的中文 Web 技术教程"
+  },
+  {
+   "link":"https://doc.react-china.org/",
+    "str":"React用于构建用户界面的 JavaScript 库"
+  },
+  {
+   "link":"http://www.17sucai.com/",
+    "str":"17素材网主要收集jQuery网页特效、jQuery网页代码、网站模板、网页模板、企业模板、商城模板、图标等素材,为html网站模板开发人员提供高效率的工作方式"
+  },
+  {
+   "link":"https://www.jquery123.com/",
+    "str":"jQuery:用更少的代码完成更多工作!jQuery 是一个最流行的 JavaScript 工具库"
+  }
+]

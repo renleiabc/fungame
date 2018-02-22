@@ -1,0 +1,27 @@
+{% extends 'index.html' %}
+
+{% block header %}
+    <link rel="stylesheet" href="./static/css/worksample/curtain.css">
+    <script type="text/javascript" src="./static/js/worksample/curtain.js"></script>
+{% endblock %}
+{% block title %}弹幕效果{% endblock %}
+
+{% block content %}
+    <div class="base">
+        <div class='curtain-btn'>
+            <span>弹幕</span>
+            <input class='tgl tgl-light' id='curtain' type='checkbox' checked>
+            <label class='tgl-btn' for='curtain'></label>
+        </div>
+        <!-- 弹幕内容放置区 -->
+        <div class="curtain">
+            <div id="barrage" class="barrage">
+            </div>
+        </div>
+        <div id="btn" class="btn">
+            <input type="text" id="text" class="text"></input>
+            <input type="button" id="submit" value="发送" class="submit"></input>
+        </div>
+
+    </div>
+{% endblock %}

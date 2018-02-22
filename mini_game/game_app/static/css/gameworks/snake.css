@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.game{
+    background: #4CAF50;
+}
+.snake-table {
+    border-collapse: collapse;
+    border: 3px solid #0026ff;
+}
+
+.snake-table td {
+    width: 25px;
+    height: 25px;
+}
+
+.snake{
+    width: 795px;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.snake ul{
+    list-style-type: none;
+    display: inline-block;
+}
+.snake ul li {
+    float: left;
+    margin-left: 20px;
+}
+
+.snake-btn{
+    width: 120px;
+    height: 30px;
+    background-color: green;
+    border-radius: 8px;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    margin-top: 25px;
+    font-weight: 600;
+}
+
+.snake-btn:hover {
+    background-color: lightgreen;
+    color: black;
+}
+
+.snake-data{
+    margin-top:20px;
+}
+
+.snake-data select{
+    width: 120px;
+    height: 30px;
+    margin-top: 25px;
+}
+
+.snake-data p{
+    font-size: large;
+    font-weight: 600;
+    color: blue;
+}
+.modal-footer {
+    text-align: center;
+}
+
+.modal-dialog {
+    position: relative;
+    margin-top: 200px;
+    width: 400px;
+    text-align: center;
+}
+
+.btn-close {
+    width: 60px;
+}

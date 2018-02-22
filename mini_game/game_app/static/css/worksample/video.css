@@ -1,0 +1,105 @@
+
+.works {
+    background: #4CAF50;
+}
+
+.base {
+    background: #000;
+}
+
+.candle {
+    position: relative;
+    z-index: 50;
+    width: 25px;
+    height: 85px;
+    margin: 20% auto;
+    border-radius: 0 0 8px 8px;
+    background-color: #fa0707;
+}
+
+.candle:after {
+    transform: translateY(-250%);
+    display: block;
+    content: "";
+    width: 25px;
+    height: 15px;
+    border-radius: 100%;
+    background-color: #960404;
+}
+
+.candle:before {
+    position: relative;
+    z-index: 10;
+    display: block;
+    content: "";
+    width: 15px;
+    height: 30px;
+    margin-left: 5px;
+    border-radius: 100%;
+    background-color: #ff0;
+    animation: light 2s infinite;
+    transform-origin: 100% 100%;
+    transform: skewX(-10deg) translateY(-100%);
+}
+
+@keyframes light {
+    0% {
+        transform: skewX(-10deg) translateY(-100%);
+        box-shadow: 0 0 50px 50px #ff0;
+    }
+    25% {
+        transform: skewX(-5deg) translateY(-100%);
+        box-shadow: 0 0 120px 10px #ff0;
+    }
+    50% {
+        transform: skewX(0deg) translateY(-100%);
+        box-shadow: 0 0 90px 10px #ff0;
+    }
+    75% {
+        transform: skewX(5deg) translateY(-100%);
+        box-shadow: 0 0 120px 10px #ff0;
+    }
+    100% {
+        transform: skewX(10deg) translateY(-100%);
+        box-shadow: 0 0 50px 50px #ff0;
+    }
+}
+
+.cake {
+    position: relative;
+    z-index: 30;
+    width: 300px;
+    height: 170px;
+    transform: translateY(-190%);
+    margin: auto;
+    border-radius: 100%;
+    background-color: #fff;
+}
+
+.cake:before {
+    position: absolute;
+    left: 10px;
+    bottom: -40px;
+    z-index: 20;
+    display: block;
+    content: "";
+    width: 100px;
+    height: 80px;
+    transform: skewY(15deg);
+    border-radius: 0 0 50px 50px;
+    background-color: #fff;
+}
+
+.bread {
+    position: relative;
+    z-index: -1;
+    transform: translateY(-310%);
+    width: 298px;
+    height: 150px;
+    margin: auto;
+    border-radius: 50%;
+    background-color: #613319;
+    box-shadow: 0 10px 0 #613319, 0 20px 0 #1f160f,
+    0 30px 0 #613319, 0 40px 0 #1f160f, 0 50px 0 #613319;
+    z-index: 10;
+}
